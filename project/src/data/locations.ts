@@ -38,5 +38,21 @@ export const locations = [
     coordinates: [10.9362, 76.7438],
     description: 'School of Engineering and Technology',
     image: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1000&q=80'
+  },
+  {
+    id: '6',
+    name: 'CSE Department',
+    category: 'academic',
+    coordinates: [10.933600, 76.743271],
+    description: 'Department of Computer Science and Engineering',
+    image: 'https://images.unsplash.com/photo-1581092335944-3ba03b179dc0?auto=format&fit=crop&w=1000&q=80'
+  },
+  {
+    id: '7',
+    name: 'ECE Department',
+    category: 'academic',
+    coordinates: [10.936726, 76.743056],
+    description: 'Department of Electronics and Communication Engineering',
+    image: 'https://images.unsplash.com/photo-1581092335944-3ba03b179dc0?auto=format&fit=crop&w=1000&q=80'
   }
 ] as const;
