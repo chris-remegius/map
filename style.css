@@ -1,0 +1,23 @@
+.tracking-button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 14px;
+}
+
+.tracking-button:hover {
+    background-color: #45a049;
+}
+
+.tracking-button:active {
+    background-color: #3d8b40;
+}
+
+/* Style for active tracking state */
+.tracking-button.active {
+    background-color: #f44336;
+}
